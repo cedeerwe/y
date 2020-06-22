@@ -1,0 +1,338 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Šestka v šiestich IV. &#8212; Akadémia Y</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="../_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/mystnb.js"></script>
+    <script src="../_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script async="async" src="../_static/thebelab.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "qq": ["\\quad#1\\quad", 1]}}})</script>
+    <link rel="shortcut icon" href="../_static/Y.jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Šestka v šiestich V." href="02_sestka5.html" />
+    <link rel="prev" title="Šestka v šiestich III." href="02_sestka3.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/Y.jpg" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Akadémia Y</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  
+  <ul class="nav sidenav_l1">
+  <li class="active">
+    <a href="01_uvod.html">Yzidor</a>
+  <ul class="nav sidenav_l2">
+    <li class="active">
+      <a href="02_sestka.html">Šestka v šiestich</a>
+      <ul class="nav sidenav_l3">
+      <li class="">
+        <a href="02_sestka2.html">Šestka v šiestich II.</a>
+      </li>
+      <li class="">
+        <a href="02_sestka3.html">Šestka v šiestich III.</a>
+      </li>
+      <li class="active">
+        <a href="">Šestka v šiestich IV.</a>
+      </li>
+      <li class="">
+        <a href="02_sestka5.html">Šestka v šiestich V.</a>
+      </li>
+      <li class="">
+        <a href="02_sestka6.html">Šestka v šiestich VI.</a>
+      </li>
+    </ul>
+    </li>
+  </ul>
+  </li>
+  <li class="">
+    <a href="../python/01_uvod.html">pYthon</a>
+  </li>
+</ul>
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../_sources/hazard/02_sestka4.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/hazard/02_sestka4.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cedeerwe/y/master?urlpath=lab/tree/book/hazard/02_sestka4.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        <button type="button" class="btn btn-secondary topbarbtn thebelab-launch-button"
+            onclick="initThebelab()" title="Launch Thebelab" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-rocket"></i><span style="margin-left: .4em;">ThebeLab</span></button>
+        
+    </div>
+</div>
+
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="sestka-v-siestich-iv">
+<h1>Šestka v šiestich IV.<a class="headerlink" href="#sestka-v-siestich-iv" title="Permalink to this headline">¶</a></h1>
+<p>Ýzyho testy vyzerajú takto:</p>
+<div class="cell tag_raises-exception docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span> <span class="c1"># sprístupníme si funkciu na vygenerovanie náhodných celých čísel</span>
+
+<span class="k">def</span> <span class="nf">hod_kockou</span><span class="p">():</span> <span class="c1"># zadefinujeme si vlastnú funkciu &quot;hod_kockou&quot; </span>
+    <span class="k">return</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span> <span class="c1"># vygenerujeme celé číslo medzi 1 (vrátane) a 7 (nevrátane)</span>
+
+<span class="c1"># testy</span>
+<span class="k">def</span> <span class="nf">otestuj_hod_kockou</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+        <span class="k">assert</span><span class="p">(</span><span class="n">hod_kockou</span><span class="p">()</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
+
+<span class="c1"># spustenie testu</span>
+<span class="n">otestuj_hod_kockou</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">fd25c7177a48</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">10</span> 
+<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="c1"># spustenie testu</span>
+<span class="ne">---&gt; </span><span class="mi">12</span> <span class="n">otestuj_hod_kockou</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+
+<span class="nn">&lt;ipython-input-1-fd25c7177a48&gt;</span> in <span class="ni">otestuj_hod_kockou</span><span class="nt">(N)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="k">def</span> <span class="nf">otestuj_hod_kockou</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+<span class="ne">----&gt; </span><span class="mi">9</span>         <span class="k">assert</span><span class="p">(</span><span class="n">hod_kockou</span><span class="p">()</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
+<span class="g g-Whitespace">     </span><span class="mi">10</span> 
+<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="c1"># spustenie testu</span>
+
+<span class="ne">AssertionError</span>: 
+</pre></div>
+</div>
+</div>
+</div>
+<p>A sme našli našu chybu. Očividne generujeme niečo iné, ako výsledky hodov kockou. Keď sa pozrieme na dokumentáciu funkcie <code class="docutils literal notranslate"><span class="pre">randint</span></code>, zistíme nasledovné.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">randint</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>Help on method randint in module random:
+
+randint(a, b) method of random.Random instance
+    Return random integer in range [a, b], including both end points.
+
+</pre></div>
+</div>
+</div>
+</div>
+<p>Takže je to celé jasné. Ýzy spravil chybu v simulácií v tom, že si zle prečítal a vyskúšal dokumentáciu, pretože oba koncové body sú zahrnuté. Opravený Ýzyho kód simulácie teda vyzerá takto:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hod_kockou_spravne</span><span class="p">():</span> 
+    <span class="k">return</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> 
+
+<span class="k">def</span> <span class="nf">sestka_v_siestich_hodoch</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">any</span><span class="p">(</span><span class="n">hod_kockou_spravne</span><span class="p">()</span> <span class="o">==</span> <span class="mi">6</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">))</span>
+
+<span class="n">pocet_pokusov</span> <span class="o">=</span> <span class="mi">1000000</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">sestka_v_siestich_hodoch</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">pocet_pokusov</span><span class="p">))</span> <span class="o">/</span> <span class="n">pocet_pokusov</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>0.665283
+</pre></div>
+</div>
+</div>
+</div>
+<p>Tento výsledok sa zhoduje s výsledkom matematických výpočtov. Ýzy teda konečne prišiel spokojný k záveru, že sa mu úlohu podarilo vyriešiť.</p>
+<p>Samotný výsledok Ýzyho až tak nezaujal. Veď ani pôvodný príklad nebol v skutočnosti až taký zaujímavý. Omnoho zaujimavejší preňho bol proces, ako sa k výsledku dostal. V prvom výsledku mal až dve chyby, ktoré si postupne sám zvládol nájsť tým, že sa snažil k riešeniu dostať rôznymi spôsobmi. Ako hovorieval dedo Yvan: “<em>Keby ti vždy musel niekto skontrolovať správnosť tvojich výsledkov, tvoja práca je polo-zbytočná.</em>”. V duchu tejto filozofie sa odvtedy malý Ýzy vždy vytešoval z toho, keď sa mu podarilo nájsť si vlastnú chybu. Stával sa tým nezávislejším a z pohľadu svojho deda menej zbytočným.</p>
+<div class="admonition-poznamka-o-chybach admonition">
+<p class="admonition-title">Poznámka o chybách</p>
+<p>V tradičných učebniciach môžete byť zvyknutí na to, že v nej nie sú chyby. Tento zvyk považujú v Ystotne za mierne škodlivý. Na jednej strane je síce pekné oprieť sa o poznatky o ktorých vieme, že sú správne. Dodáva nám to istý komfort. Na druhej strane ale čitateľ často skĺzne do toho, že text slepo číta a nezamýšľa sa nad ním. Tomuto sa v Ystotne vyhýbajú tým, že vo svojich textoch majú občas schválne chyby. Keďže tento text je o zápiskoch Yzidora z Ystotny, môžete v ňom tiež očakávať chyby.</p>
+</div>
+<p>Malý Ýzy vypočítal úlohu, ktorú si sám zadal a niečo sa nové naučil. Trocha málo sa naučil matematiky a programovania, trocha viac ohľadom vlastných chýb. Odpoveď mu ukázala, že po šiestich hodoch šestkov je iba <span class="math notranslate nohighlight">\(66\%\)</span> pravdepodobnosť na to, že padne aspoň jedna šestka. To je výrazne menej, ako bolo jeho pôvodných <span class="math notranslate nohighlight">\(100%\)</span>.</p>
+<div class="tip admonition">
+<p class="admonition-title">Úloha</p>
+<p>Koľkokrát by musel malý Ýzy hodiť kockou, aby mu padla na <span class="math notranslate nohighlight">\(100\%\)</span>?</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "cedeerwe/y",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "hazard"
+        }
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="02_sestka3.html" title="previous page">Šestka v šiestich III.</a>
+    <a class='right-next' id="next-link" href="02_sestka5.html" title="next page">Šestka v šiestich V.</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dominik Csiba<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="../_static/js/index.js"></script>
+    
+  </body>
+</html>
