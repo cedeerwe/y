@@ -1,0 +1,15 @@
+- file: index
+
+- file: hazard/01_uvod
+  sections:
+  - file: hazard/02_sestka
+    sections:
+    - file: hazard/02_sestka2
+    - file: hazard/02_sestka3
+    - file: hazard/02_sestka4
+    - file: hazard/02_sestka5
+    - file: hazard/02_sestka6
+
+- file: python/01_uvod
+  sections:
+  - file: python/02_generatory

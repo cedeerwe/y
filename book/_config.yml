@@ -1,0 +1,28 @@
+# Book settings
+title: Akadémia Y
+author: Dominik Csiba
+logo: images/Y.jpg
+
+html:
+  favicon: images/Y.jpg
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+launch_buttons:
+  notebook_interface        : "jupyterlab"  # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url             : "https://mybinder.org"
+  thebelab                  : true
+
+repository:
+  url                         : https://github.com/cedeerwe/y
+  path_to_book                : "book"
+
+sphinx:
+  config:
+    mathjax_config:
+      TeX:
+        Macros:
+          "N": "\\mathbb{N}"
+          "qq": ["\\quad#1\\quad", 1]
