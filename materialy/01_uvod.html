@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Šestka v šiestich &#8212; Akadémia Y</title>
+    <title>Úvod &#8212; Akadémia Y</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="../_static/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
@@ -35,8 +35,8 @@
     <link rel="shortcut icon" href="../_static/Y.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Šestka v šiestich II." href="02_sestka2.html" />
-    <link rel="prev" title="Yzidor" href="01_uvod.html" />
+    <link rel="next" title="Yzidor" href="../hazard/01_uvod.html" />
+    <link rel="prev" title="Kontakt" href="../uvod/05_kontakt.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -89,33 +89,11 @@
 <li class="navbar-special">
 <p class="margin-caption">Materiály</p>
 </li>
-  <li class="">
-    <a href="../materialy/01_uvod.html">Úvod</a>
-  </li>
   <li class="active">
-    <a href="01_uvod.html">Yzidor</a>
-  <ul class="nav sidenav_l2">
-    <li class="active">
-      <a href="">Šestka v šiestich</a>
-      <ul class="nav sidenav_l3">
-      <li class="">
-        <a href="02_sestka2.html">Šestka v šiestich II.</a>
-      </li>
-      <li class="">
-        <a href="02_sestka3.html">Šestka v šiestich III.</a>
-      </li>
-      <li class="">
-        <a href="02_sestka4.html">Šestka v šiestich IV.</a>
-      </li>
-      <li class="">
-        <a href="02_sestka5.html">Šestka v šiestich V.</a>
-      </li>
-      <li class="">
-        <a href="02_sestka6.html">Šestka v šiestich VI.</a>
-      </li>
-    </ul>
-    </li>
-  </ul>
+    <a href="">Úvod</a>
+  </li>
+  <li class="">
+    <a href="../hazard/01_uvod.html">Yzidor</a>
   </li>
   <li class="">
     <a href="../python/01_uvod.html">pYthon</a>
@@ -156,11 +134,11 @@
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         <a class="dropdown-buttons"
-            href="../_sources/hazard/02_sestka.ipynb"><button type="button"
+            href="../_sources/materialy/01_uvod.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/hazard/02_sestka.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/materialy/01_uvod.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -184,7 +162,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/cedeerwe/y/master?urlpath=lab/tree/book/hazard/02_sestka.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cedeerwe/y/master?urlpath=lab/tree/book/materialy/01_uvod.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -209,29 +187,11 @@
     <ul class="nav section-nav flex-column">
     
         <li class="nav-item toc-entry toc-h2">
-            <a href="#odhadovanie" class="nav-link">Odhadovanie</a>
+            <a href="#metody-a-ich-vymyslanie" class="nav-link">Metódy a ich vymýšľanie</a>
         </li>
     
         <li class="nav-item toc-entry toc-h2">
-            <a href="#simulacia" class="nav-link">Simulácia</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#matematika" class="nav-link">Matematika</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#pocet-vsetkych-moznosti" class="nav-link">Počet všetkých možností</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#pocet-vsetkych-vyhovujucich-moznosti" class="nav-link">Počet všetkých vyhovujúcich možností</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#konecny-vysledok" class="nav-link">Konečný výsledok</a>
-        </li>
-    
-            </ul>
+            <a href="#praca-v-skupine" class="nav-link">Práca v skupine</a>
         </li>
     
     </ul>
@@ -245,91 +205,13 @@
         
               <div>
                 
-  <div class="section" id="sestka-v-siestich">
-<h1>Šestka v šiestich<a class="headerlink" href="#sestka-v-siestich" title="Permalink to this headline">¶</a></h1>
-<p>Yzidorovi správne riešenia nikdy nikto nehovoril a výsledky nebývali ani napísané zozadu na hlave babky Ingrid alebo deda Yvana. Keď si malý Ýzy chcel overiť, že či má výsledok správne, musel to tak urobiť sám. Každú úlohu si preto skúsil vyriešiť viacerými nezávislými spôsobmi. Ak mu tieto spôsoby dávali rovnaké / podobné výsledky, bol spokojný. Ak sa líšili, začal si v jednom z prístupov hľadať chybu. Jeho najobľúbenejší prístup (a ten, ktorým vždy začal) bolo <em>odhadovanie</em>.</p>
-<div class="section" id="odhadovanie">
-<h2>Odhadovanie<a class="headerlink" href="#odhadovanie" title="Permalink to this headline">¶</a></h2>
-<p>Malý Ýzy sa zamyslel nad otázkou a skúsil veľmi rýchlo vyprodukovať nejaký rozumný odhad. Povedal si, že šanca na aspoň jednu šestku by sa mala pohybovať v desiatkach percent. Ľubovoľný výsledok menší ako <span class="math notranslate nohighlight">\(10\%\)</span> by ho prekvapil. Odhad je to veľmi hrubý, ale pomôže nám identifikovať očividné chyby v našich ostatných postupoch. Ak by sme niekde zle vykrátili zlomok a dostali by sme výsledok <span class="math notranslate nohighlight">\(5\%\)</span>, okamžite by sme zbystrili pozornosť a hľadali si chybu. Tá chyba by mohla byť vo <em>výpočtoch</em>, ale aj v <em>odhade</em> samotnom. Chyby robíme, je dôležité sa s nimi naučiť pracovať.</p>
-<p>Po rýchlom odhade zvykne Ýzy pokračovať k simulácii. Za málo práce dostane totiž väčšinou veľmi dobrý výsledok.</p>
-</div>
-<div class="section" id="simulacia">
-<h2>Simulácia<a class="headerlink" href="#simulacia" title="Permalink to this headline">¶</a></h2>
-<p>Na simulovanie používa Ýzy používať programovací jazyk Python. Ak ste v ňom nováčik, silno odporúčame si prečítať prvých pár častí nášho <a class="reference internal" href="../python/01_uvod.html"><span class="doc">úvodu do tohto jazyka</span></a>.</p>
-<p>V prvom rade budeme potrebovať vedieť vygenerovať náhodu, konkrétne pre nás hod kockou. V Pythone to dosiahneme napríklad takto:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span> <span class="c1"># sprístupníme si funkciu na vygenerovanie náhodných celých čísel</span>
-
-<span class="k">def</span> <span class="nf">hod_kockou</span><span class="p">():</span> <span class="c1"># zadefinujeme si vlastnú funkciu &quot;hod_kockou&quot; </span>
-    <span class="k">return</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span> <span class="c1"># vygenerujeme celé číslo medzi 1 (vrátane) a 7 (nevrátane)</span>
-
-<span class="c1"># skúsime si hodiť 6 krát kockou</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span> <span class="c1"># zopakuj 6-krát</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">hod_kockou</span><span class="p">())</span> <span class="c1"># vypíš výsledok hodu kockou</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>6
-6
-6
-3
-1
-2
-</pre></div>
-</div>
-</div>
-</div>
-<p>Python má výhodu, že sa číslo číta tak ľahko ako angličtina samotná. Komentáre k vyššie napísanému kódu by sme pravdepodobne mohli vynechať a stále by ste rozumeli hlavným myšlienkam. Ýzy sa snaží písať taký kód, ktorý sa ľahko číta. Ak by to tak nebolo, dajte mu vedieť a on s tým skúsi niečo spraviť.</p>
-<p>Kockou sa nám podarilo hodiť šesťkrát. Nás ale  v skutočnosti zaujíma, či sa v týchto hodoch nachádza aspoň jedna šestka. Na to si napíšeme ďalšiu funkciu</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># vrátime buď &quot;True&quot; alebo &quot;False&quot; podľa toho, či aspoň jeden výsledok zo šiestich bola šestka</span>
-<span class="k">def</span> <span class="nf">sestka_v_siestich_hodoch</span><span class="p">():</span>
-    <span class="k">return</span> <span class="nb">any</span><span class="p">(</span><span class="n">hod_kockou</span><span class="p">()</span> <span class="o">==</span> <span class="mi">6</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Predchádzajúci kód používa mierne pokročilejšie (ale zato odporúčané) spôsoby programovania v Pythone. Ak vám robí ťažkosti, odporúčame si prečítať kapitolu o <a class="reference internal" href="../python/02_generatory.html"><span class="doc">Pythonovských generátoroch</span></a>. Následne si pozrieme posledný kus kódu, ktorý spustí prechádzajúcu funkciu obrovský počet krát a povie nám svoj priemerný výsledok.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pocet_pokusov</span> <span class="o">=</span> <span class="mi">1000000</span>
-<span class="c1"># využijeme fakt, že &quot;True&quot; a &quot;False&quot; sa pri sčítavaní správajú ako 1 a 0</span>
-<span class="nb">sum</span><span class="p">(</span><span class="n">sestka_v_siestich_hodoch</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">pocet_pokusov</span><span class="p">))</span> <span class="o">/</span> <span class="n">pocet_pokusov</span> 
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>0.604613
-</pre></div>
-</div>
-</div>
-</div>
-<p>Toto je naša odsimulovaná šanca na hodenie aspoň jednej šestky zo šiestich pokusov. Sedí s našim širokým odhadom, takže predbežne tento výsledok vyzerá byť vierohodný. Ako posledný spôsob skúsi Ýzy zrátať túto šancu matematicky. Táto cesta je väčšinou najnáročnejšia, ale zato nás v prípade správnych výpočtov odmení úplne presným výsledkom.</p>
-</div>
-<div class="section" id="matematika">
-<h2>Matematika<a class="headerlink" href="#matematika" title="Permalink to this headline">¶</a></h2>
-<p>Vypočítať tento príklad nie je zložité, ak ste absolvovali ľubovoľný kurz základnej pravdepodobnosti. Tento príklad by sa totiž kľudne mohol označiť ako <em>typový</em>. Ak nezvolíte správnu cestu, môže sa postup javiť pracný, nevyžaduje si ale žiaden náročnejší myšlienkový pochod.</p>
-<p>Ak chceme vyrátať pravdepodobnosť nejakej udalosti, môžme ju spočítať ako počet možností, ako môže táto udalosť nastať vydelených počtom možností všetkých udalostí. Celá stredoškolská pravdepodobnosť sa dá vyrátať pomocou tohto jednoduchého a intuitívneho postupu. Ak vám nie je úplne jasný, skúste si ho poriadne premyslieť a vyskúšať na rôznych príkladoch (napríklad aj na tomto). Ýzy sa tiež rozhodol použiť tento postup na výpočet jeho úlohy.</p>
-<div class="section" id="pocet-vsetkych-moznosti">
-<h3>Počet všetkých možností<a class="headerlink" href="#pocet-vsetkych-moznosti" title="Permalink to this headline">¶</a></h3>
-<p>Ýzy začal zľahka. Počet všetkých možností je v tomto prípade počet všetkých možných postupností hodov kockou o dĺžke 6. Ýzy si tieto možnosti skúsil zakresliť a dostal takýto rýchlo rastúci strom všetkých možností:</p>
-<div class="cell tag_hide-input docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">graphviz</span>
-
-<span class="n">d</span> <span class="o">=</span> <span class="n">graphviz</span><span class="o">.</span><span class="n">Digraph</span><span class="p">()</span>
-<span class="n">d</span><span class="o">.</span><span class="n">node</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">7</span><span class="p">):</span>
-    <span class="n">d</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">):</span>
-        <span class="n">d</span><span class="o">.</span><span class="n">edge</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">))</span>
-<span class="n">d</span>
-</pre></div>
-</div>
-</div>
+  <div class="section" id="uvod">
+<h1>Úvod<a class="headerlink" href="#uvod" title="Permalink to this headline">¶</a></h1>
+<p>Hlavnou časťou našej akadémie sú nami pripravené materiály na štúdium. Skôr, ako sa do nich pustíte, máme pre vás niekoľko rád o tom, ako si z nich zobrať čo najviac.</p>
+<div class="section" id="metody-a-ich-vymyslanie">
+<h2>Metódy a ich vymýšľanie<a class="headerlink" href="#metody-a-ich-vymyslanie" title="Permalink to this headline">¶</a></h2>
+<p>Cieľom našej akadémie je, aby ste vedeli zodpovedať na najrôznejšie otázky zo sveta, ktoré vás napadnú. To môžme dosiahnuť viacerými spôsobmi.</p>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
@@ -391,44 +273,23 @@
 <span class="ne">ExecutableNotFound</span>: failed to execute [&#39;dot&#39;, &#39;-Tsvg&#39;], make sure the Graphviz executables are on your systems&#39; PATH
 </pre></div>
 </div>
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;graphviz.dot.Digraph at 0x7f0b6efe54a8&gt;
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;graphviz.dot.Digraph at 0x7fc554e98e10&gt;
 </pre></div>
 </div>
 </div>
 </div>
-<div class="margin sidebar">
-<p class="sidebar-title"></p>
-<p>Tento graf sme tiež vytvorili pomocou Pythonu. Jeho zdrojový kód si môžte rozkliknúť. Nie je to v skutočnosti nič komplikované.</p>
+<p>Môžme vás začať učiť používať rôzne metódy na riešenie úloh. Tento prístup je celkom štandardný, používa sa napríklad aj vo väčšine škôl. Naučia vás používať konkrétne postupy, ktoré sa dajú aplikovať na konkrétne problémy. Hlavný problém tohto prístupu je, že akonáhle sa stretnete s problémom, na ktorého riešenie neviete napasovať žiadnu zo svojich naučených prístupov, narazili ste na prekážku. Táto prekážka pravdaže nie je neprekonateľná, ale keďže ste sa doteraz nesústredili na prekonávanie takýchto prekážok, bude pre vás často náročné ju prekonať.</p>
+<p>V našej akadémii sa chceme sústrediť práve na schopnosť prekonávať takéto prekážky. Nie je naším cieľom naučiť vás konkrétne metódy, namiesto toho by sme vás radi učili schopnosť takéto metódy vymýšľať. Tento cieľ je náročnejší a výrazne abstraktnejší. Neexistuje totiž presný zoznam vecí, ktoré sa máte naučiť, aby ste v tomto boli dobrí. Ako sa teda môžme v tomto zlepšovať? Tak ako vo všetkom ostatnom - precvičovaním.</p>
+<p>Každá stránka našich materiálov je ukončená otázkou, nad ktorou by ste sa mali poriadne zamyslieť a zodpovedať si ju predtým, ako sa pustíte ďalej. Najčastejšie síce tieto otázky čiastočne zodpovieme za vás, vašim cieľom by ale nemalo byť zistiť odpovede na všetky otázky, ktoré vám kladieme. Tak ako sme si povedali vyššie, našim cieľom je precvičiť si našu schopnosť vymýšľať si tieto metódy a odpovede sami.</p>
+<p>Náš prístup nie je lepší ako tradičný školský. Je odlišný. Každý z nich má svoje výhody. Ak sa učíte iba metódy, budete mať problém riešiť problémy, ktoré nie sú riešiteľné vašim arzenálom metód. Ak sa budete učiť vymýšľať metódy, bude vám dlhšie trvať vyriešiť ľubovoľný problém, lebo v tom nemáte prax. Keďže je ale naším cieľom zlepšiť sa v odpovedaní na najrozličnejšie otázky z celého sveta, jediná cesta je naozaj zlepšiť sa vo vymýšľaní metód riešenia úloh.</p>
+<p>Ak aj nezvládnete na všetky otázky zodpovedať, to v skutočnosti vôbec nevadí. Dôležité je, aby ste nad nimi zamýšľali a skúšali ich vyriešiť. Aj športovcom sa nedarí prekonať svetový rekord, ale napriek tomu to skúšajú a stále sa zlepšujú.</p>
+<p>V skratke: <strong>Nečítajte tieto materiály ako knihu</strong>. Hlavná časť týchto materiálov leži <em>medzi</em> stránkami, kde by ste mali tráviť najviac času. Tam sa rozvíjate v schopnostiach, na ktoré sú tieto materiály sústredené.</p>
 </div>
-<p>Pre prehľadnosť si rozpísal iba prvé dva hody, z ktorých už pochopil, ako to bude ďalej pokračovať. Každý ďalší hod pridá k jednému z predchádzajúcich možností ďalších 6 možností a teda výsledný počet možností bude <span class="math notranslate nohighlight">\(6^6 = 46\,656\)</span>.</p>
-</div>
-<div class="section" id="pocet-vsetkych-vyhovujucich-moznosti">
-<h3>Počet všetkých vyhovujúcich možností<a class="headerlink" href="#pocet-vsetkych-vyhovujucich-moznosti" title="Permalink to this headline">¶</a></h3>
-<p>Najprv si Ýzy spočítal všetky možnosti, v ktorých je vo výsledku práve jedna šestka. Táto jedna šestka môže byť na šiestich pozíciách. Všetky ostatné hody musia byť odlišné od 6 a teda každé ostatné číslo má iba 5 možností. Ýzy už skúsene vie spojiť tieto dve informácie dokopy, aby získal počet možností <span class="math notranslate nohighlight">\(6 \cdot 5^5 = 18\,750\)</span>. Toto ale nie je konečný výsledok, pretože vyhovujúca možnosť je aj taká, ak sú vo výsledku dve šestky.</p>
-<p>Ako zrátame počet možností pre práve dve šestky? Tieto dve šestky sa musia nachádzať na niektorých pozíciách a zvyšné čísla budú nutne iné ako 6. Výsledok teda bude tvaru <span class="math notranslate nohighlight">\(x \cdot 5^4\)</span>, kde <span class="math notranslate nohighlight">\(x\)</span> je počet možností pre umiestnenie dvoch šestiek medzi 6 hodov. Ak máte natrénované pravdepodobnostné vzorčeky, budete hneď vedieť, že je výsledok <span class="math notranslate nohighlight">\(6 \choose 2\)</span>. Ýzy ale natrénované vzorčeky nemá a preto si to vždy radšej vymyslí od začiatku. Prvú šestku môžme dať na 6 miest, druhú šestku už len na zvyšných 5 miest. Dokopy máme teda <span class="math notranslate nohighlight">\(6 \cdot 5 = 30\)</span> možností. Niektoré z týchto možností sa ale opakujú, napríklad možnosť, kde prvá šestka bude na prvom mieste, druhá na druhom a možnosť, kde prvá šestka bude na druhom a druhá na prvom mieste. Počet možností, ktoré sme si spočítali, by sme teda radi vydelili počtom možných usporiadaní dvoch šestiek, teda číslom 2. Počet usporiadaní šestiek bude <span class="math notranslate nohighlight">\(\tfrac{6 \cdot 5}{2} = 15\)</span>. Celkový počet možností teda bude <span class="math notranslate nohighlight">\(15 \cdot 5^4 = 9\,375\)</span>.</p>
-<p>Budeme musieť ale pokračovať, lebo šestiek môže byť ešte aj viac. Nebudeme sa už rozpisovať, lebo myšlienkové pochody sú úplne rovnaké. Výsledky dostaneme ako</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\text{3 šestky}:&amp; \quad \tfrac{6 \cdot 5 \cdot 4}{3 \cdot 2} \cdot 5^3  \qq{=} 2\,700,\\
-\text{4 šestky}:&amp; \quad \tfrac{6 \cdot 5 \cdot 4 \cdot 3}{4 \cdot 3 \cdot 2} \cdot 5^2 \qq{=} 375,\\
-\text{5 šestiek}:&amp; \quad \tfrac{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2}{5 \cdot 4 \cdot 3 \cdot 2} \cdot 5  \qq{=} 30, \\
-\text{6 šestiek}:&amp; \quad \tfrac{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2} \cdot 5^0 \qq{=} 1. \\\end{split}\]</div>
-<p>Po spočítaní všetkých našich výsledkov dostávame počet všetkých vyhovujúcich možností dostávame ako:</p>
-<div class="math notranslate nohighlight">
-\[18\,750 + 9\,375 + 2\,700 + 375 + 30 + 1 = 31\,231.\]</div>
-</div>
-<div class="section" id="konecny-vysledok">
-<h3>Konečný výsledok<a class="headerlink" href="#konecny-vysledok" title="Permalink to this headline">¶</a></h3>
-<p>Fuh, to bola makačka. Chudák Ýzy je z toho celý spotený. Konečný výsledok vyšiel ako</p>
-<div class="math notranslate nohighlight">
-\[\frac{31\,231}{46\,656} \approx 0.66494 \]</div>
-<p>Ýzy prehlásil, že tento výsledok síce sedí s odhadom, ale od simulácií je odlišný o zhruba <span class="math notranslate nohighlight">\(6\%\)</span>. Keďže sme robili v simulácií až milión pokusov, očakával Ýzy menšiu odchýlku. Celé to zaváňa nejakou chybou.</p>
-<div class="tip admonition">
-<p class="admonition-title">Úloha</p>
-<p>Stala sa chyba? Ak áno, kde? Ak nie, prečo sú výsledky také odlišné?</p>
-</div>
-<div class="toctree-wrapper compound">
-</div>
-</div>
+<div class="section" id="praca-v-skupine">
+<h2>Práca v skupine<a class="headerlink" href="#praca-v-skupine" title="Permalink to this headline">¶</a></h2>
+<p>Aj keď sa naše materiály dajú študovať aj osamote, vôbec to neodporúčame. Naozaj. Čítať samostatne je úplne v poriadku, ale rozmýšľať nad problémami je vždy lepšie v skupinách. Každý ďalší pohľad na vec prinesie nový uhol a nový vhľad do problematiky. Občas sa stane, že jeden z vás nebude rozumieť argumentom druhého. Pri riešení týchto situácií sa zlepšíte v argumentovaní, vysvetľovaní, pochopeniu druhých. Tieto schopnosti sú v živote veľmi dôležité a náročne sa získavajú.</p>
+<p>Naša akadémia má v Bratislave pravidelné stretnutia, kde sa skupiny ľudí prelúskavajú našimi materiálmi. Ak ste z okolia, odporúčame vám na tieto stretnutia chodiť a spoločne s lektormi posúvať svoje vedomosti ďalej.</p>
+<p>Ak máte do Bratislavy ďaleko, dohodnite sa so svojimi kamarátmi na stretnutiach, kde si budete spoločne týmito materiálmi prechádzať. Je to skoro rovnako dobré, ako chodiť na spoločné stretnutia do Bratislavy.</p>
 </div>
 </div>
 
@@ -445,7 +306,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "hazard"
+            path: "materialy"
         }
     }
     </script>
@@ -459,8 +320,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="01_uvod.html" title="previous page">Yzidor</a>
-    <a class='right-next' id="next-link" href="02_sestka2.html" title="next page">Šestka v šiestich II.</a>
+    <a class='left-prev' id="prev-link" href="../uvod/05_kontakt.html" title="previous page">Kontakt</a>
+    <a class='right-next' id="next-link" href="../hazard/01_uvod.html" title="next page">Yzidor</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
