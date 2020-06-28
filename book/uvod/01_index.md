@@ -155,4 +155,4 @@ Naším hlavným cieľom je riešenie problémov vyskytujúcich sa v reálnom sv
 
 ## Čo teraz?
 
-Hor sa do prvej časti, príbehu Yzidora z Ystotny!
+Ak sa chcete pustiť rovno do štúdia našich materiálov, odporúčame začať {doc}`tu </materialy/01_uvod>`. Ak sa chceš dozvedieť viac o našej akadémií, pokračuj na ďalšiu stránku pomocou šípky v pravom dolnom rohu obrazovky.

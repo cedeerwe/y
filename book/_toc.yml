@@ -1,4 +1,15 @@
-- file: index
+- file: uvod/01_index
+
+- header: O akadémii
+- file: uvod/02_historia
+- file: uvod/03_autori
+- file: uvod/04_alumni
+  sections:
+  - file: uvod/04_alumni1
+- file: uvod/05_kontakt
+
+- header: Materiály
+- file: materialy/01_uvod 
 
 - file: hazard/01_uvod
   sections:
