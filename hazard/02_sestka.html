@@ -28,8 +28,6 @@
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script async="async" src="../_static/thebelab.js"></script>
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "qq": ["\\quad#1\\quad", 1]}}})</script>
     <link rel="canonical" href="https://cedeerwe.github.io/y/hazard/02_sestka.html" />
@@ -220,9 +218,9 @@
         
         
         
-        <button type="button" class="btn btn-secondary topbarbtn thebelab-launch-button"
-            onclick="initThebelab()" title="Launch Thebelab" data-toggle="tooltip" data-placement="left"><i
-                class="fas fa-rocket"></i><span style="margin-left: .4em;">ThebeLab</span></button>
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebelabSBT()" title="Launch Thebelab" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
         
     </div>
 </div>
@@ -307,11 +305,11 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-none notranslate"><div class="highlight"><pre><span></span>5
+2
 5
 4
 1
-6
-1
+2
 </pre></div>
 </div>
 </div>
@@ -337,7 +335,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>0.60324
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>0.60242
 </pre></div>
 </div>
 </div>
@@ -426,7 +424,7 @@
 <span class="ne">ExecutableNotFound</span>: failed to execute [&#39;dot&#39;, &#39;-Tsvg&#39;], make sure the Graphviz executables are on your systems&#39; PATH
 </pre></div>
 </div>
-<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;graphviz.dot.Digraph at 0x7fed26fe54a8&gt;
+<div class="output text_plain highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;graphviz.dot.Digraph at 0x7f91082f0898&gt;
 </pre></div>
 </div>
 </div>
@@ -467,24 +465,6 @@
 </div>
 </div>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "cedeerwe/y",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "hazard"
-        }
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
 
               </div>
               
