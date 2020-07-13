@@ -54,7 +54,7 @@ Naša odvážna dlhodobá vízia je ponúkať doplnkové štúdium počas stredn
 
 ## Zhmotnenie predstáv
 
-Keďže išlo z nášho pohľadu o experiment nového konceptu výučby, zamerali sme sa na skupinu študentov, ktorých sme poznali z minulosti práve z prostredia matematických seminárov. Nerobili sme žiadnu reklamu a čisto cez kamarátstva a známosti sme našli skupinu 12 študentov, ktorým sme sa venovali od októbra 2019 po apríl 2020. Strávili sme s nimi dokopy zhruba 40 hodín a nad prípravou materiálov sme strávili zhruba 200 hodín času. Absolventi sa o kurze spätne vyjadrujú s veľkým nadšením. Ich konkrétne slová si môžte prečítať v sekcii o {doc}`absolventoch </uvod/04_alumni>. Všetky pôvodné materiály brutálnej akadémie si môžte pozrieť [tu](https://colab.research.google.com/github/cedeerwe/brutalna-akademia/blob/master). 
+Keďže išlo z nášho pohľadu o experiment nového konceptu výučby, zamerali sme sa na skupinu študentov, ktorých sme poznali z minulosti práve z prostredia matematických seminárov. Nerobili sme žiadnu reklamu a čisto cez kamarátstva a známosti sme našli skupinu 12 študentov, ktorým sme sa venovali od októbra 2019 po apríl 2020. Strávili sme s nimi dokopy zhruba 40 hodín a nad prípravou materiálov sme strávili zhruba 200 hodín času. Absolventi sa o kurze spätne vyjadrujú s veľkým nadšením. Ich konkrétne slová si môžte prečítať v sekcii o {doc}`absolventoch </uvod/04_alumni>`. Všetky pôvodné materiály brutálnej akadémie si môžte pozrieť [tu](https://colab.research.google.com/github/cedeerwe/brutalna-akademia/blob/master). 
 
 ## Akadémia Y
 

@@ -18,6 +18,7 @@ launch_buttons:
   notebook_interface        : "jupyterlab"  # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url             : "https://mybinder.org"
   thebelab                  : true
+  colab_url: "https://colab.research.google.com"
 
 repository:
   url                         : https://github.com/cedeerwe/y
